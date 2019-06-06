@@ -1,0 +1,41 @@
+Router>en
+Router#co
+Router#confi
+Router#configure ter
+Router#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#hos
+Router(config)#hostname R
+Router(config)#hostname R1
+R1(config)#PAS
+R1(config)#pas
+R1(config)#pass
+R1(config)#passwp
+R1(config)#cons
+R1(config)#console
+R1(config)#line con
+R1(config)#line console 0
+R1(config-line)#pas
+R1(config-line)#password cisco
+R1(config-line)#logi
+R1(config-line)#login 
+R1(config-line)#exit
+R1(config)#li
+R1(config)#li
+R1(config)#line
+R1(config)#passw
+             ^
+% Invalid input detected at '^' marker.
+	
+R1(config)#lo
+R1(config)#li
+R1(config)#line vty 0 15
+R1(config-line)#oass
+R1(config-line)#pa
+R1(config-line)#password cisco
+R1(config-line)#login
+R1(config-line)#exit
+R1(config)#
+R1#
+
+
