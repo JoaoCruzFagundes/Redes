@@ -39,3 +39,143 @@ R1(config)#
 R1#
 
 
+
+SWITCH VLAN 
+Configurando acesso telnet para 05 usuários-
+
+Switch>enable
+
+Switch#configure terminal
+
+Switch(config)#line vty 0 4
+
+Switch(config-line)#login
+
+Switch(config-line)#password ti-redes
+
+ 
+
+Configurando o endereço IP do switch-
+
+Switch>enable
+
+Switch#configure terminal
+
+Switch(config)#interface vlan 1
+
+Switch(config-if)#ip address 1.0.0.1 255.255.255.0
+
+Switch(config-if)#no shutdown
+
+ 
+
+Configurando o gateway do switch
+
+Switch>enable
+
+Switch#configure terminal
+
+Switch(config)#ip default-gateway 1.0.0.2         
+
+ 
+
+Configurando vlan no switch
+
+Switch>enable
+
+Switch#configure terminal
+
+Switch(config)#vlan 10
+
+Switch(config-vlan)#name dep-administrativo
+
+Switch(config-vlan)#exit
+
+Switch(config)#
+
+Switch(config)#interface fastEthernet 0/1
+
+Switch(config-if)#switchport mode access
+
+Switch(config-if)#switchport access vlan 10
+
+Switch(config-if)#exit
+
+Switch(config)#exit
+
+Switch#sh vlan
+
+ 
+
+Configurando trunk no switch
+
+Switch>enable
+
+Switch#configure terminal
+
+Switch(config)#interface fastEthernet 0/1
+
+Switch(config-if)#switchport mode trunk
+
+ 
+
+Comandos de verificação e diagnóstico-
+
+Switch#show ?
+
+(O comando show ? fornece uma lista dos comandos show disponíveis)
+
+ 
+
+Switch#show arp
+
+(Exibe a tabela ARP do roteador)
+
+ 
+
+Switch#sh interfaces
+
+(Verifica detalhadamente as configurações das interfaces)
+
+ 
+
+Switch #sh ip interface brief
+
+(Verifica as configurações das interfaces)
+
+ 
+
+Switch#show mac-address-table dynamic
+
+(Verifica a tabela de endereçamento MAC)
+
+ 
+
+Switch#show vlan
+
+(Exibe as vlans configuradas)
+
+ 
+
+Switch #sh running-config
+
+(Verifica as configirações ativas na RAM)
+
+ 
+
+Switch#sh startup-config
+
+(Verifica as configurações da NVRAM)
+
+ 
+
+Switch#sh flash:
+
+(Verifica os arquivos de sistema operacional da Flash)
+
+ 
+Switch#copy running-config startup-config
+
+(Salva as configurações ativas na RAM para a NVRAM)
+
+
