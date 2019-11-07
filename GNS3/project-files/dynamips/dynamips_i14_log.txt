@@ -1,0 +1,28 @@
+Nov 07 11:20:18.474 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Nov 07 11:20:18.474 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57662.
+Nov 07 11:20:18.488 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 07 11:20:18.492 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips 
+Nov 07 11:20:18.492 GENERAL: working_dir=/home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips
+Nov 07 11:20:18.492 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips/f02dc54b-7c4d-468e-beb3-f3394f1c04bd 
+Nov 07 11:20:18.492 GENERAL: working_dir=/home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips/f02dc54b-7c4d-468e-beb3-f3394f1c04bd
+Nov 07 11:20:18.492 HYPERVISOR: exec_cmd: vm create R15 15 c3725 
+Nov 07 11:20:18.492 VM: VM R15 created.
+Nov 07 11:20:18.492 HYPERVISOR: exec_cmd: vm set_con_tcp_port R15 5014 
+Nov 07 11:20:18.493 HYPERVISOR: exec_cmd: c3725 get_mac_addr R15 
+Nov 07 11:20:18.493 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 07 11:20:18.496 HYPERVISOR: exec_cmd: vm slot_add_binding R15 1 0 NM-4T 
+Nov 07 11:20:18.496 HYPERVISOR: exec_cmd: vm set_disk0 R15 0 
+Nov 07 11:20:18.497 HYPERVISOR: exec_cmd: vm set_ios R15 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:20:18.497 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 07 11:20:18.497 HYPERVISOR: exec_cmd: vm slot_add_binding R15 2 0 NM-4T 
+Nov 07 11:20:18.498 HYPERVISOR: exec_cmd: vm set_nvram R15 256 
+Nov 07 11:20:18.633 HYPERVISOR: exec_cmd: vm set_ios R15 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:20:23.490 HYPERVISOR: exec_cmd: vm set_ios R15 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:20:23.972 HYPERVISOR: exec_cmd: vm set_ios R15 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:20:30.460 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 07 11:20:30.461 HYPERVISOR: exec_cmd: vm extract_config R15 
+Nov 07 11:20:30.461 HYPERVISOR: exec_cmd: vm delete R15 
+Nov 07 11:20:30.461 VM: VM R15 destroyed.
+Nov 07 11:20:30.462 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 07 11:20:30.498 HYPERVISOR: Stopped.
+Nov 07 11:20:30.498 GENERAL: reset done.

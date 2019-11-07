@@ -1,0 +1,40 @@
+Nov 07 11:20:14.692 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Nov 07 11:20:14.692 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58971.
+Nov 07 11:20:14.702 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 07 11:20:14.702 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips 
+Nov 07 11:20:14.702 GENERAL: working_dir=/home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips
+Nov 07 11:20:14.702 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips/b8e94322-089c-4540-9883-014df2e1f57c 
+Nov 07 11:20:14.702 GENERAL: working_dir=/home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips/b8e94322-089c-4540-9883-014df2e1f57c
+Nov 07 11:20:14.703 HYPERVISOR: exec_cmd: vm create R14 14 c3725 
+Nov 07 11:20:14.703 VM: VM R14 created.
+Nov 07 11:20:14.703 HYPERVISOR: exec_cmd: vm set_con_tcp_port R14 5013 
+Nov 07 11:20:14.703 HYPERVISOR: exec_cmd: c3725 get_mac_addr R14 
+Nov 07 11:20:14.703 HYPERVISOR: exec_cmd: vm get_status R14 
+Nov 07 11:20:14.703 HYPERVISOR: exec_cmd: vm slot_add_binding R14 1 0 NM-4T 
+Nov 07 11:20:14.704 HYPERVISOR: exec_cmd: vm set_disk0 R14 0 
+Nov 07 11:20:14.704 HYPERVISOR: exec_cmd: vm set_ios R14 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:20:14.704 HYPERVISOR: exec_cmd: vm get_status R14 
+Nov 07 11:20:14.705 HYPERVISOR: exec_cmd: vm slot_add_binding R14 2 0 NM-4T 
+Nov 07 11:20:14.705 HYPERVISOR: exec_cmd: vm set_nvram R14 256 
+Nov 07 11:20:14.829 HYPERVISOR: exec_cmd: vm set_ios R14 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:20:16.616 HYPERVISOR: exec_cmd: vm set_ios R14 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:20:36.920 HYPERVISOR: exec_cmd: vm set_ios R14 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:20:37.536 HYPERVISOR: exec_cmd: vm set_ios R14 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:20:38.493 HYPERVISOR: exec_cmd: vm set_ios R14 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:20:49.926 HYPERVISOR: exec_cmd: vm set_ios R14 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:27:18.855 HYPERVISOR: exec_cmd: vm set_ios R14 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:29:16.705 HYPERVISOR: exec_cmd: vm set_ios R14 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:29:56.411 HYPERVISOR: exec_cmd: vm set_ios R14 /home/alunoinfo/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T7.image 
+Nov 07 11:34:38.943 HYPERVISOR: exec_cmd: nio create_udp udp-231784a2-a7f8-4767-b8d6-9a8f011136de 10058 127.0.0.1 10059 
+Nov 07 11:34:39.158 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R14 0 0 udp-231784a2-a7f8-4767-b8d6-9a8f011136de 
+Nov 07 11:34:39.159 HYPERVISOR: exec_cmd: vm get_status R14 
+Nov 07 11:34:43.636 HYPERVISOR: exec_cmd: vm get_status R14 
+Nov 07 11:34:43.637 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R14 0 0 
+Nov 07 11:34:43.637 HYPERVISOR: exec_cmd: nio delete udp-231784a2-a7f8-4767-b8d6-9a8f011136de 
+Nov 07 11:35:01.576 HYPERVISOR: exec_cmd: vm get_status R14 
+Nov 07 11:35:01.577 HYPERVISOR: exec_cmd: vm extract_config R14 
+Nov 07 11:35:01.577 HYPERVISOR: exec_cmd: vm delete R14 
+Nov 07 11:35:01.577 VM: VM R14 destroyed.
+Nov 07 11:35:01.577 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 07 11:35:02.016 HYPERVISOR: Stopped.
+Nov 07 11:35:02.016 GENERAL: reset done.

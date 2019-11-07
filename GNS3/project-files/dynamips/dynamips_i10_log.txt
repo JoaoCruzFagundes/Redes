@@ -1,0 +1,30 @@
+Nov 07 11:20:08.616 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Nov 07 11:20:08.616 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 39858.
+Nov 07 11:20:08.626 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 07 11:20:08.626 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips 
+Nov 07 11:20:08.626 GENERAL: working_dir=/home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips
+Nov 07 11:20:08.626 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips/32546216-3342-4712-99f2-a0a7f9aa1c97 
+Nov 07 11:20:08.626 GENERAL: working_dir=/home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips/32546216-3342-4712-99f2-a0a7f9aa1c97
+Nov 07 11:20:08.626 HYPERVISOR: exec_cmd: vm create R11 11 c3600 
+Nov 07 11:20:08.626 VM: VM R11 created.
+Nov 07 11:20:08.627 HYPERVISOR: exec_cmd: vm set_con_tcp_port R11 5010 
+Nov 07 11:20:08.627 HYPERVISOR: exec_cmd: c3600 get_mac_addr R11 
+Nov 07 11:20:08.627 HYPERVISOR: exec_cmd: vm get_status R11 
+Nov 07 11:20:08.627 HYPERVISOR: exec_cmd: vm slot_add_binding R11 1 0 NM-4E 
+Nov 07 11:20:08.627 HYPERVISOR: exec_cmd: vm get_status R11 
+Nov 07 11:20:08.627 HYPERVISOR: exec_cmd: vm slot_add_binding R11 0 0 NM-4E 
+Nov 07 11:20:08.628 HYPERVISOR: exec_cmd: vm set_ios R11 /home/alunoinfo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 07 11:20:08.628 HYPERVISOR: exec_cmd: vm set_ram R11 192 
+Nov 07 11:20:08.628 HYPERVISOR: exec_cmd: vm set_nvram R11 256 
+Nov 07 11:20:08.726 HYPERVISOR: exec_cmd: vm set_ios R11 /home/alunoinfo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 07 11:20:36.344 HYPERVISOR: exec_cmd: vm set_ios R11 /home/alunoinfo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 07 11:20:51.848 HYPERVISOR: exec_cmd: vm set_ios R11 /home/alunoinfo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 07 11:27:25.255 HYPERVISOR: exec_cmd: vm set_ios R11 /home/alunoinfo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 07 11:29:13.255 HYPERVISOR: exec_cmd: vm set_ios R11 /home/alunoinfo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 07 11:29:59.551 HYPERVISOR: exec_cmd: vm set_ios R11 /home/alunoinfo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 07 11:33:01.821 HYPERVISOR: exec_cmd: nio create_udp udp-616d08d2-413d-4752-ada3-d6d4fa168f50 10046 127.0.0.1 10047 
+Nov 07 11:33:02.032 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 0 0 udp-616d08d2-413d-4752-ada3-d6d4fa168f50 
+Nov 07 11:33:02.032 HYPERVISOR: exec_cmd: vm get_status R11 
+Nov 07 11:40:24.936 HYPERVISOR: exec_cmd: nio create_udp udp-4f0c0bc9-7481-42e2-94b0-75a929e7a4b9 10074 127.0.0.1 10075 
+Nov 07 11:40:24.937 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 0 1 udp-4f0c0bc9-7481-42e2-94b0-75a929e7a4b9 
+Nov 07 11:40:24.938 HYPERVISOR: exec_cmd: vm get_status R11 

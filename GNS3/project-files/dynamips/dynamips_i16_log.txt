@@ -1,0 +1,25 @@
+Nov 07 11:35:04.374 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Nov 07 11:35:04.374 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 39436.
+Nov 07 11:35:04.384 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 07 11:35:04.384 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips 
+Nov 07 11:35:04.384 GENERAL: working_dir=/home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips
+Nov 07 11:35:04.385 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips/196723b5-9f8d-4295-9c80-cf315b6e04e1 
+Nov 07 11:35:04.385 GENERAL: working_dir=/home/alunoinfo/Área de Trabalho/Redes/GNS3/project-files/dynamips/196723b5-9f8d-4295-9c80-cf315b6e04e1
+Nov 07 11:35:04.385 HYPERVISOR: exec_cmd: vm create R13 13 c3600 
+Nov 07 11:35:04.385 VM: VM R13 created.
+Nov 07 11:35:04.385 HYPERVISOR: exec_cmd: vm set_con_tcp_port R13 5012 
+Nov 07 11:35:04.385 HYPERVISOR: exec_cmd: c3600 get_mac_addr R13 
+Nov 07 11:35:04.386 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 07 11:35:04.386 HYPERVISOR: exec_cmd: vm slot_add_binding R13 1 0 NM-4E 
+Nov 07 11:35:04.386 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 07 11:35:04.386 HYPERVISOR: exec_cmd: vm slot_add_binding R13 0 0 NM-4E 
+Nov 07 11:35:04.387 HYPERVISOR: exec_cmd: vm set_ios R13 /home/alunoinfo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 07 11:35:04.387 HYPERVISOR: exec_cmd: vm set_ram R13 192 
+Nov 07 11:35:04.388 HYPERVISOR: exec_cmd: vm set_nvram R13 256 
+Nov 07 11:35:04.548 HYPERVISOR: exec_cmd: vm set_ios R13 /home/alunoinfo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 07 11:35:20.817 HYPERVISOR: exec_cmd: nio create_udp udp-90951d60-5e95-465f-80c1-555883053fac 10058 127.0.0.1 10059 
+Nov 07 11:35:21.034 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R13 0 0 udp-90951d60-5e95-465f-80c1-555883053fac 
+Nov 07 11:35:21.034 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 07 11:40:36.463 HYPERVISOR: exec_cmd: nio create_udp udp-4865d7cd-054a-45a8-b0f4-027833380227 10086 127.0.0.1 10087 
+Nov 07 11:40:36.465 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R13 0 1 udp-4865d7cd-054a-45a8-b0f4-027833380227 
+Nov 07 11:40:36.465 HYPERVISOR: exec_cmd: vm get_status R13 
