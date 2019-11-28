@@ -1,0 +1,53 @@
+Nov 25 08:08:31.544 HYPERVISOR: Release 0.2.14-amd64/Linux (tag 2014092320)
+Nov 25 08:08:31.544 HYPERVISOR: Started on IP = localhost, TCP port = 41447.
+Nov 25 08:08:31.558 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 08:08:31.558 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/GNS3/project-files/dynamips 
+Nov 25 08:08:31.558 GENERAL: working_dir=/home/eduardo/workspace/Redes/GNS3/project-files/dynamips
+Nov 25 08:08:31.559 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/08cac716-9d90-4ef9-aeb8-cb3138caf21b 
+Nov 25 08:08:31.559 GENERAL: working_dir=/home/eduardo/workspace/Redes/GNS3/project-files/dynamips/08cac716-9d90-4ef9-aeb8-cb3138caf21b
+Nov 25 08:08:31.559 HYPERVISOR: exec_cmd: vm create R2 2 c3600 
+Nov 25 08:08:31.559 VM: VM R2 created.
+Nov 25 08:08:31.560 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5003 
+Nov 25 08:08:31.560 HYPERVISOR: exec_cmd: c3600 get_mac_addr R2 
+Nov 25 08:08:31.562 HYPERVISOR: exec_cmd: vm set_ios R2 /home/eduardo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 25 08:08:31.562 HYPERVISOR: exec_cmd: c3600 set_mac_addr R2 cc02.15d2.0000 
+Nov 25 08:08:31.563 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Nov 25 08:08:31.563 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+Nov 25 08:08:31.563 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 25 08:08:31.564 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 NM-1FE-TX 
+Nov 25 08:08:31.564 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 25 08:08:31.564 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Nov 25 08:08:31.565 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 25 08:08:31.565 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-4E 
+Nov 25 08:08:31.565 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 25 08:08:31.565 HYPERVISOR: exec_cmd: vm slot_add_binding R2 3 0 NM-4E 
+Nov 25 08:08:31.566 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5003 
+Nov 25 08:08:32.956 HYPERVISOR: exec_cmd: nio create_udp udp-2d49ef55-2301-4019-a58e-f43994ff78fa 10014 127.0.0.1 10015 
+Nov 25 08:08:33.171 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-2d49ef55-2301-4019-a58e-f43994ff78fa 
+Nov 25 08:08:33.172 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 25 08:08:35.595 HYPERVISOR: exec_cmd: nio create_udp udp-fc5b0e02-81a7-433a-b265-167ffd43b451 10074 127.0.0.1 10075 
+Nov 25 08:08:35.596 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-fc5b0e02-81a7-433a-b265-167ffd43b451 
+Nov 25 08:08:35.596 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 25 08:08:35.656 HYPERVISOR: exec_cmd: nio create_udp udp-c7d7f8d8-85fc-4951-817f-a59ed69f35c5 10080 127.0.0.1 10081 
+Nov 25 08:08:35.657 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 2 0 udp-c7d7f8d8-85fc-4951-817f-a59ed69f35c5 
+Nov 25 08:08:35.658 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 25 08:09:04.427 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Nov 25 08:09:04.429 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/c3640-jk9o3s-mz.124-16.image-192.ghost 
+Nov 25 08:09:04.433 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 25 08:09:04.434 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Nov 25 08:09:04.440 HYPERVISOR: exec_cmd: vm start R2 
+Nov 25 08:09:29.391 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Nov 25 08:09:29.405 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/c3640-jk9o3s-mz.124-16.image-192.ghost 
+Nov 25 08:09:29.409 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 25 08:09:34.650 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 25 08:11:32.028 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 25 08:11:32.029 HYPERVISOR: exec_cmd: vm stop R2 
+Nov 25 08:11:32.140 VM: VM R2 shutdown.
+Nov 25 08:11:32.140 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 25 08:11:32.735 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 25 08:11:32.735 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 25 08:11:32.737 HYPERVISOR: exec_cmd: vm delete R2 
+Nov 25 08:11:32.737 VM: VM R2 destroyed.
+Nov 25 08:11:32.738 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 08:11:33.174 HYPERVISOR: Stopped.
+Nov 25 08:11:33.174 GENERAL: reset done.

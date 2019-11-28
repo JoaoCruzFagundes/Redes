@@ -1,0 +1,32 @@
+Cisco Router Simulation Platform (version 0.2.14-amd64/Linux stable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Apr  3 2018 12:20:29
+
+Local UUID: 3976edb0-ae2b-45b4-a992-ed307eb2138d
+
+Log file: writing to dynamips_i9_log.txt
+ILT: loaded table "mips64j" from cache.
+ILT: loaded table "mips64e" from cache.
+ILT: loaded table "ppc32j" from cache.
+ILT: loaded table "ppc32e" from cache.
+Hypervisor TCP control server started (IP localhost port 46359).
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+NVRAM is empty, setting config register to 0x2142
+C3600 instance 'R10' (id 10):
+  VM Status  : 0
+  RAM size   : 192 Mb
+  NVRAM size : 256 Kb
+  Chassis    : 3640
+  IOS image  : /home/eduardo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image
+
+Loading ELF file '/home/eduardo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3600 'R10': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3600 'R10': stopping simulation.
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Shutdown in progress...
+Shutdown completed.

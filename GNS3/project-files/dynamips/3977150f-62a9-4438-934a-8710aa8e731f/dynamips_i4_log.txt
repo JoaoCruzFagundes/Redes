@@ -1,0 +1,45 @@
+Nov 25 08:08:31.374 HYPERVISOR: Release 0.2.14-amd64/Linux (tag 2014092320)
+Nov 25 08:08:31.374 HYPERVISOR: Started on IP = localhost, TCP port = 45541.
+Nov 25 08:08:31.381 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 08:08:31.381 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/GNS3/project-files/dynamips 
+Nov 25 08:08:31.381 GENERAL: working_dir=/home/eduardo/workspace/Redes/GNS3/project-files/dynamips
+Nov 25 08:08:31.381 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/196723b5-9f8d-4295-9c80-cf315b6e04e1 
+Nov 25 08:08:31.381 GENERAL: working_dir=/home/eduardo/workspace/Redes/GNS3/project-files/dynamips/196723b5-9f8d-4295-9c80-cf315b6e04e1
+Nov 25 08:08:31.382 HYPERVISOR: exec_cmd: vm create R13 13 c3600 
+Nov 25 08:08:31.382 VM: VM R13 created.
+Nov 25 08:08:31.382 HYPERVISOR: exec_cmd: vm set_con_tcp_port R13 5012 
+Nov 25 08:08:31.382 HYPERVISOR: exec_cmd: c3600 get_mac_addr R13 
+Nov 25 08:08:31.383 HYPERVISOR: exec_cmd: vm set_ios R13 /home/eduardo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 25 08:08:31.383 HYPERVISOR: exec_cmd: c3600 set_mac_addr R13 cc0d.0b00.0000 
+Nov 25 08:08:31.383 HYPERVISOR: exec_cmd: vm set_nvram R13 256 
+Nov 25 08:08:31.383 HYPERVISOR: exec_cmd: vm set_ram R13 192 
+Nov 25 08:08:31.383 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 25 08:08:31.384 HYPERVISOR: exec_cmd: vm slot_add_binding R13 0 0 NM-4E 
+Nov 25 08:08:31.384 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 25 08:08:31.384 HYPERVISOR: exec_cmd: vm slot_add_binding R13 1 0 NM-4E 
+Nov 25 08:08:34.497 HYPERVISOR: exec_cmd: nio create_udp udp-9342ff7b-c84b-4290-b7b4-469d27d68aaa 10044 127.0.0.1 10045 
+Nov 25 08:08:34.718 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R13 0 0 udp-9342ff7b-c84b-4290-b7b4-469d27d68aaa 
+Nov 25 08:08:34.719 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 25 08:08:35.420 HYPERVISOR: exec_cmd: nio create_udp udp-1f979e6e-c80a-4b6a-ac28-5a19a8af80d7 10060 127.0.0.1 10061 
+Nov 25 08:08:35.421 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R13 0 1 udp-1f979e6e-c80a-4b6a-ac28-5a19a8af80d7 
+Nov 25 08:08:35.421 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 25 08:09:03.879 HYPERVISOR: exec_cmd: vm set_ghost_status R13 2 
+Nov 25 08:09:03.882 HYPERVISOR: exec_cmd: vm set_ghost_file R13 /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/c3640-jk9o3s-mz.124-16.image-192.ghost 
+Nov 25 08:09:03.883 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 25 08:09:03.885 HYPERVISOR: exec_cmd: vm set_config R13 configs/i13_startup-config.cfg 
+Nov 25 08:09:03.886 HYPERVISOR: exec_cmd: vm start R13 
+Nov 25 08:09:29.219 HYPERVISOR: exec_cmd: vm set_ghost_status R13 2 
+Nov 25 08:09:29.220 HYPERVISOR: exec_cmd: vm set_ghost_file R13 /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/c3640-jk9o3s-mz.124-16.image-192.ghost 
+Nov 25 08:09:29.221 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 25 08:09:34.134 HYPERVISOR: exec_cmd: vm extract_config R13 
+Nov 25 08:11:31.591 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 25 08:11:31.592 HYPERVISOR: exec_cmd: vm stop R13 
+Nov 25 08:11:31.679 VM: VM R13 shutdown.
+Nov 25 08:11:31.681 HYPERVISOR: exec_cmd: vm extract_config R13 
+Nov 25 08:11:32.738 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 25 08:11:32.739 HYPERVISOR: exec_cmd: vm extract_config R13 
+Nov 25 08:11:32.740 HYPERVISOR: exec_cmd: vm delete R13 
+Nov 25 08:11:32.740 VM: VM R13 destroyed.
+Nov 25 08:11:32.741 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 08:11:33.049 HYPERVISOR: Stopped.
+Nov 25 08:11:33.049 GENERAL: reset done.

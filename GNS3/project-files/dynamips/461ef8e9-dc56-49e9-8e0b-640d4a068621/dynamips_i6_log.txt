@@ -1,0 +1,60 @@
+Nov 25 08:08:31.425 HYPERVISOR: Release 0.2.14-amd64/Linux (tag 2014092320)
+Nov 25 08:08:31.425 HYPERVISOR: Started on IP = localhost, TCP port = 35829.
+Nov 25 08:08:31.439 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 08:08:31.439 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/GNS3/project-files/dynamips 
+Nov 25 08:08:31.439 GENERAL: working_dir=/home/eduardo/workspace/Redes/GNS3/project-files/dynamips
+Nov 25 08:08:31.440 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/32546216-3342-4712-99f2-a0a7f9aa1c97 
+Nov 25 08:08:31.440 GENERAL: working_dir=/home/eduardo/workspace/Redes/GNS3/project-files/dynamips/32546216-3342-4712-99f2-a0a7f9aa1c97
+Nov 25 08:08:31.441 HYPERVISOR: exec_cmd: vm create R11 11 c3600 
+Nov 25 08:08:31.441 VM: VM R11 created.
+Nov 25 08:08:31.442 HYPERVISOR: exec_cmd: vm set_con_tcp_port R11 5010 
+Nov 25 08:08:31.442 HYPERVISOR: exec_cmd: c3600 get_mac_addr R11 
+Nov 25 08:08:31.444 HYPERVISOR: exec_cmd: vm set_ios R11 /home/eduardo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 25 08:08:31.445 HYPERVISOR: exec_cmd: c3600 set_mac_addr R11 cc0b.0954.0000 
+Nov 25 08:08:31.446 HYPERVISOR: exec_cmd: vm set_nvram R11 256 
+Nov 25 08:08:31.447 HYPERVISOR: exec_cmd: vm set_ram R11 192 
+Nov 25 08:08:31.448 HYPERVISOR: exec_cmd: vm get_status R11 
+Nov 25 08:08:31.448 HYPERVISOR: exec_cmd: vm slot_add_binding R11 0 0 NM-4E 
+Nov 25 08:08:31.448 HYPERVISOR: exec_cmd: vm get_status R11 
+Nov 25 08:08:31.449 HYPERVISOR: exec_cmd: vm slot_add_binding R11 1 0 NM-4E 
+Nov 25 08:08:32.132 HYPERVISOR: exec_cmd: nio create_udp udp-7973260b-4d1d-4eec-85ce-a5e72955f98f 10004 127.0.0.1 10005 
+Nov 25 08:08:32.353 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 0 0 udp-7973260b-4d1d-4eec-85ce-a5e72955f98f 
+Nov 25 08:08:32.354 HYPERVISOR: exec_cmd: vm get_status R11 
+Nov 25 08:08:34.198 HYPERVISOR: exec_cmd: nio create_udp udp-8b977358-ca8a-48d9-b3de-3686ee6a7a56 10038 127.0.0.1 10039 
+Nov 25 08:08:34.199 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 0 1 udp-8b977358-ca8a-48d9-b3de-3686ee6a7a56 
+Nov 25 08:08:34.200 HYPERVISOR: exec_cmd: vm get_status R11 
+Nov 25 08:09:03.424 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Nov 25 08:09:03.424 VM: VM Ghost created.
+Nov 25 08:09:03.427 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/eduardo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 25 08:09:03.427 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 25 08:09:03.428 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/c3640-jk9o3s-mz.124-16.image-192.ghost 
+Nov 25 08:09:03.428 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Nov 25 08:09:03.429 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 25 08:09:03.429 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Nov 25 08:09:03.430 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 25 08:09:03.708 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 25 08:09:03.709 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 25 08:09:03.870 VM: VM Ghost shutdown.
+Nov 25 08:09:03.871 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 25 08:09:03.874 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 25 08:09:03.874 VM: VM Ghost destroyed.
+Nov 25 08:09:03.877 HYPERVISOR: exec_cmd: vm set_ghost_status R11 2 
+Nov 25 08:09:03.878 HYPERVISOR: exec_cmd: vm set_ghost_file R11 /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/c3640-jk9o3s-mz.124-16.image-192.ghost 
+Nov 25 08:09:03.879 HYPERVISOR: exec_cmd: vm get_status R11 
+Nov 25 08:09:03.881 HYPERVISOR: exec_cmd: vm set_config R11 configs/i11_startup-config.cfg 
+Nov 25 08:09:03.882 HYPERVISOR: exec_cmd: vm start R11 
+Nov 25 08:09:29.217 HYPERVISOR: exec_cmd: vm set_ghost_status R11 2 
+Nov 25 08:09:29.219 HYPERVISOR: exec_cmd: vm set_ghost_file R11 /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/c3640-jk9o3s-mz.124-16.image-192.ghost 
+Nov 25 08:09:29.219 HYPERVISOR: exec_cmd: vm get_status R11 
+Nov 25 08:09:34.133 HYPERVISOR: exec_cmd: vm extract_config R11 
+Nov 25 08:11:31.591 HYPERVISOR: exec_cmd: vm get_status R11 
+Nov 25 08:11:31.592 HYPERVISOR: exec_cmd: vm stop R11 
+Nov 25 08:11:31.645 VM: VM R11 shutdown.
+Nov 25 08:11:31.646 HYPERVISOR: exec_cmd: vm extract_config R11 
+Nov 25 08:11:32.868 HYPERVISOR: exec_cmd: vm get_status R11 
+Nov 25 08:11:32.869 HYPERVISOR: exec_cmd: vm extract_config R11 
+Nov 25 08:11:32.871 HYPERVISOR: exec_cmd: vm delete R11 
+Nov 25 08:11:32.871 VM: VM R11 destroyed.
+Nov 25 08:11:32.877 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 08:11:33.054 HYPERVISOR: Stopped.
+Nov 25 08:11:33.054 GENERAL: reset done.

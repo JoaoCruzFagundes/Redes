@@ -1,0 +1,45 @@
+Nov 25 08:08:31.398 HYPERVISOR: Release 0.2.14-amd64/Linux (tag 2014092320)
+Nov 25 08:08:31.398 HYPERVISOR: Started on IP = localhost, TCP port = 59761.
+Nov 25 08:08:31.408 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 08:08:31.408 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/GNS3/project-files/dynamips 
+Nov 25 08:08:31.408 GENERAL: working_dir=/home/eduardo/workspace/Redes/GNS3/project-files/dynamips
+Nov 25 08:08:31.408 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/f8b5bd94-db6e-4c4b-9755-f24e75e6057e 
+Nov 25 08:08:31.408 GENERAL: working_dir=/home/eduardo/workspace/Redes/GNS3/project-files/dynamips/f8b5bd94-db6e-4c4b-9755-f24e75e6057e
+Nov 25 08:08:31.409 HYPERVISOR: exec_cmd: vm create R7 7 c3600 
+Nov 25 08:08:31.409 VM: VM R7 created.
+Nov 25 08:08:31.409 HYPERVISOR: exec_cmd: vm set_con_tcp_port R7 5006 
+Nov 25 08:08:31.409 HYPERVISOR: exec_cmd: c3600 get_mac_addr R7 
+Nov 25 08:08:31.410 HYPERVISOR: exec_cmd: vm set_ios R7 /home/eduardo/GNS3/images/IOS/c3640-jk9o3s-mz.124-16.image 
+Nov 25 08:08:31.410 HYPERVISOR: exec_cmd: c3600 set_mac_addr R7 cc07.090e.0000 
+Nov 25 08:08:31.410 HYPERVISOR: exec_cmd: vm set_nvram R7 256 
+Nov 25 08:08:31.410 HYPERVISOR: exec_cmd: vm set_ram R7 192 
+Nov 25 08:08:31.411 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 25 08:08:31.411 HYPERVISOR: exec_cmd: vm slot_add_binding R7 0 0 NM-4E 
+Nov 25 08:08:31.411 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 25 08:08:31.411 HYPERVISOR: exec_cmd: vm slot_add_binding R7 1 0 NM-4E 
+Nov 25 08:08:35.109 HYPERVISOR: exec_cmd: nio create_udp udp-e2aab965-c726-4348-a7a3-2def26c278c1 10056 127.0.0.1 10057 
+Nov 25 08:08:35.331 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 0 udp-e2aab965-c726-4348-a7a3-2def26c278c1 
+Nov 25 08:08:35.332 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 25 08:08:35.724 HYPERVISOR: exec_cmd: nio create_udp udp-a31f01c5-536a-42c5-927b-451797568b80 10086 127.0.0.1 10087 
+Nov 25 08:08:35.725 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 1 udp-a31f01c5-536a-42c5-927b-451797568b80 
+Nov 25 08:08:35.725 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 25 08:09:03.883 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+Nov 25 08:09:03.886 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/c3640-jk9o3s-mz.124-16.image-192.ghost 
+Nov 25 08:09:03.887 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 25 08:09:03.888 HYPERVISOR: exec_cmd: vm set_config R7 configs/i7_startup-config.cfg 
+Nov 25 08:09:03.889 HYPERVISOR: exec_cmd: vm start R7 
+Nov 25 08:09:29.222 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+Nov 25 08:09:29.229 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /home/eduardo/workspace/Redes/GNS3/project-files/dynamips/c3640-jk9o3s-mz.124-16.image-192.ghost 
+Nov 25 08:09:29.232 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 25 08:09:34.121 HYPERVISOR: exec_cmd: vm extract_config R7 
+Nov 25 08:11:31.590 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 25 08:11:31.591 HYPERVISOR: exec_cmd: vm stop R7 
+Nov 25 08:11:31.702 VM: VM R7 shutdown.
+Nov 25 08:11:31.703 HYPERVISOR: exec_cmd: vm extract_config R7 
+Nov 25 08:11:32.896 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 25 08:11:32.897 HYPERVISOR: exec_cmd: vm extract_config R7 
+Nov 25 08:11:32.900 HYPERVISOR: exec_cmd: vm delete R7 
+Nov 25 08:11:32.900 VM: VM R7 destroyed.
+Nov 25 08:11:32.916 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 08:11:33.024 HYPERVISOR: Stopped.
+Nov 25 08:11:33.024 GENERAL: reset done.

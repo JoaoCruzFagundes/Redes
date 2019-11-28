@@ -2,10 +2,11 @@
     "auto_close": true,
     "auto_open": false,
     "auto_start": false,
+    "drawing_grid_size": 75,
     "grid_size": 75,
     "name": "GNS3",
     "project_id": "12bdf682-0a56-46ef-b166-e44cd74578e4",
-    "revision": 8,
+    "revision": 9,
     "scene_height": 1000,
     "scene_width": 2000,
     "show_grid": false,
@@ -518,7 +519,9 @@
             {
                 "compute_id": "local",
                 "console": 5012,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -528,6 +531,7 @@
                     "x": 14,
                     "y": -25
                 },
+                "locked": false,
                 "name": "R13",
                 "node_id": "196723b5-9f8d-4295-9c80-cf315b6e04e1",
                 "node_type": "dynamips",
@@ -558,9 +562,11 @@
                     "slot2": null,
                     "slot3": null,
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": 428,
                 "y": 427,
@@ -569,7 +575,9 @@
             {
                 "compute_id": "local",
                 "console": 5006,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -579,6 +587,7 @@
                     "x": 19,
                     "y": -25
                 },
+                "locked": false,
                 "name": "R7",
                 "node_id": "f8b5bd94-db6e-4c4b-9755-f24e75e6057e",
                 "node_type": "dynamips",
@@ -609,9 +618,11 @@
                     "slot2": null,
                     "slot3": null,
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": -490,
                 "y": -451,
@@ -620,7 +631,9 @@
             {
                 "compute_id": "local",
                 "console": 5010,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -630,6 +643,7 @@
                     "x": 14,
                     "y": -25
                 },
+                "locked": false,
                 "name": "R11",
                 "node_id": "32546216-3342-4712-99f2-a0a7f9aa1c97",
                 "node_type": "dynamips",
@@ -660,9 +674,11 @@
                     "slot2": null,
                     "slot3": null,
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": -551,
                 "y": 426,
@@ -671,7 +687,9 @@
             {
                 "compute_id": "local",
                 "console": 5019,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 59,
                 "label": {
@@ -681,6 +699,7 @@
                     "x": 11,
                     "y": -25
                 },
+                "locked": false,
                 "name": "PC-4",
                 "node_id": "d3cfd532-0dec-41f5-9401-ba430ed90ecf",
                 "node_type": "vpcs",
@@ -688,6 +707,7 @@
                 "port_segment_size": 0,
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": null,
                 "width": 65,
                 "x": 621,
                 "y": -631,
@@ -696,7 +716,9 @@
             {
                 "compute_id": "local",
                 "console": 5013,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 59,
                 "label": {
@@ -706,6 +728,7 @@
                     "x": 11,
                     "y": -25
                 },
+                "locked": false,
                 "name": "PC-1",
                 "node_id": "f72b9766-acf9-45b0-ba56-5837d1bfa3d3",
                 "node_type": "vpcs",
@@ -713,6 +736,7 @@
                 "port_segment_size": 0,
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": null,
                 "width": 65,
                 "x": -667,
                 "y": -665,
@@ -721,7 +745,9 @@
             {
                 "compute_id": "local",
                 "console": 5005,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -731,6 +757,7 @@
                     "x": 19,
                     "y": -25
                 },
+                "locked": false,
                 "name": "R6",
                 "node_id": "461ef8e9-dc56-49e9-8e0b-640d4a068621",
                 "node_type": "dynamips",
@@ -761,9 +788,11 @@
                     "slot2": null,
                     "slot3": null,
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": -334,
                 "y": -274,
@@ -772,7 +801,9 @@
             {
                 "compute_id": "local",
                 "console": 5015,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 59,
                 "label": {
@@ -782,6 +813,7 @@
                     "x": 11,
                     "y": -25
                 },
+                "locked": false,
                 "name": "PC-2",
                 "node_id": "5d40f583-48c4-4eb3-8e45-3a62fd80af62",
                 "node_type": "vpcs",
@@ -789,6 +821,7 @@
                 "port_segment_size": 0,
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": null,
                 "width": 65,
                 "x": -707,
                 "y": 585,
@@ -796,8 +829,10 @@
             },
             {
                 "compute_id": "local",
-                "console": 5001,
+                "console": 5003,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -807,6 +842,7 @@
                     "x": 17,
                     "y": -36
                 },
+                "locked": false,
                 "name": "R2",
                 "node_id": "08cac716-9d90-4ef9-aeb8-cb3138caf21b",
                 "node_type": "dynamips",
@@ -837,9 +873,11 @@
                     "slot2": "NM-4E",
                     "slot3": "NM-4E",
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": -206,
                 "y": -126,
@@ -848,7 +886,9 @@
             {
                 "compute_id": "local",
                 "console": 5009,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -858,6 +898,7 @@
                     "x": 14,
                     "y": -25
                 },
+                "locked": false,
                 "name": "R10",
                 "node_id": "7fab2a3d-5ae9-4d32-a2e0-8ac944f9d3be",
                 "node_type": "dynamips",
@@ -888,9 +929,11 @@
                     "slot2": null,
                     "slot3": null,
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": -361,
                 "y": 226,
@@ -899,7 +942,9 @@
             {
                 "compute_id": "local",
                 "console": 5017,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 59,
                 "label": {
@@ -909,6 +954,7 @@
                     "x": 11,
                     "y": -25
                 },
+                "locked": false,
                 "name": "PC-3",
                 "node_id": "d21b2241-695b-4f90-9159-0ae8f4929977",
                 "node_type": "vpcs",
@@ -916,6 +962,7 @@
                 "port_segment_size": 0,
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": null,
                 "width": 65,
                 "x": 597,
                 "y": 581,
@@ -923,8 +970,10 @@
             },
             {
                 "compute_id": "local",
-                "console": 5004,
+                "console": 5007,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -934,6 +983,7 @@
                     "x": 19,
                     "y": -25
                 },
+                "locked": false,
                 "name": "R5",
                 "node_id": "94af9dba-5292-445e-bbcc-6da6e2ec0e3b",
                 "node_type": "dynamips",
@@ -964,9 +1014,11 @@
                     "slot2": "NM-4E",
                     "slot3": "NM-4E",
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": 46,
                 "y": 81,
@@ -974,8 +1026,10 @@
             },
             {
                 "compute_id": "local",
-                "console": 5007,
+                "console": 5008,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -985,6 +1039,7 @@
                     "x": 19,
                     "y": -25
                 },
+                "locked": false,
                 "name": "R8",
                 "node_id": "c11b3ccc-9053-4009-88ff-8106021898ca",
                 "node_type": "dynamips",
@@ -1015,9 +1070,11 @@
                     "slot2": null,
                     "slot3": null,
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": 221,
                 "y": -276,
@@ -1025,8 +1082,10 @@
             },
             {
                 "compute_id": "local",
-                "console": 5003,
+                "console": 5011,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -1036,6 +1095,7 @@
                     "x": 19,
                     "y": -25
                 },
+                "locked": false,
                 "name": "R4",
                 "node_id": "3977150f-62a9-4438-934a-8710aa8e731f",
                 "node_type": "dynamips",
@@ -1066,9 +1126,11 @@
                     "slot2": "NM-4E",
                     "slot3": "NM-4E",
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": -207,
                 "y": 77,
@@ -1076,8 +1138,10 @@
             },
             {
                 "compute_id": "local",
-                "console": 5011,
+                "console": 5014,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -1087,6 +1151,7 @@
                     "x": 14,
                     "y": -25
                 },
+                "locked": false,
                 "name": "R12",
                 "node_id": "7eae37ef-6b65-4c6f-918d-10b3960dd30b",
                 "node_type": "dynamips",
@@ -1117,9 +1182,11 @@
                     "slot2": "NM-4E",
                     "slot3": null,
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": 246,
                 "y": 256,
@@ -1127,8 +1194,10 @@
             },
             {
                 "compute_id": "local",
-                "console": 5008,
+                "console": 5016,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -1138,6 +1207,7 @@
                     "x": 19,
                     "y": -25
                 },
+                "locked": false,
                 "name": "R9",
                 "node_id": "5aab7602-b7c8-4c69-89fe-de5dd1879771",
                 "node_type": "dynamips",
@@ -1168,9 +1238,11 @@
                     "slot2": null,
                     "slot3": null,
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": 401,
                 "y": -440,
@@ -1178,8 +1250,10 @@
             },
             {
                 "compute_id": "local",
-                "console": 5002,
+                "console": 5018,
+                "console_auto_start": false,
                 "console_type": "telnet",
+                "custom_adapters": [],
                 "first_port_name": null,
                 "height": 45,
                 "label": {
@@ -1189,6 +1263,7 @@
                     "x": 19,
                     "y": -25
                 },
+                "locked": false,
                 "name": "R3",
                 "node_id": "de0d9454-18c5-4936-a3e3-e0ff6c26a4fa",
                 "node_type": "dynamips",
@@ -1219,9 +1294,11 @@
                     "slot2": "NM-4E",
                     "slot3": "NM-4E",
                     "sparsemem": true,
-                    "system_id": "FTX0945W0MY"
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
                 },
                 "symbol": ":/symbols/router.svg",
+                "template_id": null,
                 "width": 66,
                 "x": 41,
                 "y": -125,
@@ -1231,6 +1308,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.1.21",
-    "zoom": 50
+    "version": "2.2.3",
+    "zoom": 141
 }
