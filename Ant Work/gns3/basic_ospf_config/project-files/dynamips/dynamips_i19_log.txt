@@ -29,3 +29,15 @@ Nov 28 00:04:02.506 HYPERVISOR: exec_cmd: vm get_status R2
 Nov 28 00:04:02.846 HYPERVISOR: exec_cmd: nio create_udp udp-2cb825c6-b331-446a-97da-9dd9a248ed10 10046 127.0.0.1 10047 
 Nov 28 00:04:02.847 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-2cb825c6-b331-446a-97da-9dd9a248ed10 
 Nov 28 00:04:02.848 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 28 00:08:24.447 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Nov 28 00:08:24.447 VM: VM Ghost created.
+Nov 28 00:08:24.448 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/eduardo/Downloads/c3640-jk9o3s-mz.124-16.bin 
+Nov 28 00:08:24.449 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 28 00:08:24.450 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost '/home/eduardo/workspace/Redes/Ant Work/basic_ospf_config/project-files/dynamips/c3640-jk9o3s-mz.124-16.bin-256.ghost' 
+Nov 28 00:08:24.450 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 28 00:08:24.452 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Nov 28 00:08:24.452 HYPERVISOR: exec_cmd: vm start R2 
+Nov 28 00:13:53.278 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 28 00:13:53.282 HYPERVISOR: exec_cmd: vm stop R2 
+Nov 28 00:13:53.419 VM: VM R2 shutdown.
+Nov 28 00:13:53.422 HYPERVISOR: exec_cmd: vm extract_config R2 

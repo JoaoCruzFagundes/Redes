@@ -1,0 +1,31 @@
+Nov 28 10:38:11.963 HYPERVISOR: Release 0.2.14-amd64/Linux (tag 2014092320)
+Nov 28 10:38:11.963 HYPERVISOR: Started on IP = localhost, TCP port = 46401.
+Nov 28 10:38:11.975 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 28 10:38:11.976 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips 
+Nov 28 10:38:11.976 GENERAL: working_dir=/home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips
+Nov 28 10:38:11.976 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips/052c99ba-a85c-4d63-9aa7-acce00a10b96 
+Nov 28 10:38:11.976 GENERAL: working_dir=/home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips/052c99ba-a85c-4d63-9aa7-acce00a10b96
+Nov 28 10:38:11.976 HYPERVISOR: exec_cmd: vm create R7 7 c3600 
+Nov 28 10:38:11.976 VM: VM R7 created.
+Nov 28 10:38:11.977 HYPERVISOR: exec_cmd: vm set_con_tcp_port R7 5026 
+Nov 28 10:38:11.977 HYPERVISOR: exec_cmd: c3600 get_mac_addr R7 
+Nov 28 10:38:11.977 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 28 10:38:11.977 HYPERVISOR: exec_cmd: vm set_idle_pc R7 0x60504f04 
+Nov 28 10:38:11.977 HYPERVISOR: exec_cmd: vm set_ios R7 /home/eduardo/Downloads/c3640-jk9o3s-mz.124-16.bin 
+Nov 28 10:38:11.978 HYPERVISOR: exec_cmd: vm set_nvram R7 256 
+Nov 28 10:38:11.978 HYPERVISOR: exec_cmd: vm set_ram R7 256 
+Nov 28 10:38:11.978 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 28 10:38:11.978 HYPERVISOR: exec_cmd: vm slot_add_binding R7 0 0 NM-1FE-TX 
+Nov 28 10:38:11.978 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 28 10:38:11.978 HYPERVISOR: exec_cmd: vm slot_add_binding R7 1 0 NM-1FE-TX 
+Nov 28 10:38:11.979 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 28 10:38:11.979 HYPERVISOR: exec_cmd: vm slot_add_binding R7 2 0 NM-1FE-TX 
+Nov 28 10:38:11.979 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 28 10:38:11.979 HYPERVISOR: exec_cmd: vm slot_add_binding R7 3 0 NM-1FE-TX 
+Nov 28 10:38:11.979 HYPERVISOR: exec_cmd: vm set_con_tcp_port R7 5026 
+Nov 28 10:38:13.742 HYPERVISOR: exec_cmd: nio create_udp udp-3d8974c4-e19e-4b4a-be85-078dff1ef159 10172 127.0.0.1 10173 
+Nov 28 10:38:13.958 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 0 udp-3d8974c4-e19e-4b4a-be85-078dff1ef159 
+Nov 28 10:38:13.959 HYPERVISOR: exec_cmd: vm get_status R7 
+Nov 28 10:38:14.060 HYPERVISOR: exec_cmd: nio create_udp udp-906057f8-4290-4b5c-b259-662b0244c259 10176 127.0.0.1 10177 
+Nov 28 10:38:14.061 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 1 0 udp-906057f8-4290-4b5c-b259-662b0244c259 
+Nov 28 10:38:14.061 HYPERVISOR: exec_cmd: vm get_status R7 

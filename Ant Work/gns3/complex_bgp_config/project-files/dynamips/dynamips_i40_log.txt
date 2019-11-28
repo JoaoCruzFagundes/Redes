@@ -1,0 +1,28 @@
+Nov 28 10:38:12.354 HYPERVISOR: Release 0.2.14-amd64/Linux (tag 2014092320)
+Nov 28 10:38:12.354 HYPERVISOR: Started on IP = localhost, TCP port = 36983.
+Nov 28 10:38:12.364 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 28 10:38:12.365 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips 
+Nov 28 10:38:12.365 GENERAL: working_dir=/home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips
+Nov 28 10:38:12.365 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips/5a4a5172-3963-41be-a6e2-f2d59dad8b9e 
+Nov 28 10:38:12.365 GENERAL: working_dir=/home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips/5a4a5172-3963-41be-a6e2-f2d59dad8b9e
+Nov 28 10:38:12.365 HYPERVISOR: exec_cmd: vm create R20 20 c3600 
+Nov 28 10:38:12.365 VM: VM R20 created.
+Nov 28 10:38:12.366 HYPERVISOR: exec_cmd: vm set_con_tcp_port R20 5039 
+Nov 28 10:38:12.366 HYPERVISOR: exec_cmd: c3600 get_mac_addr R20 
+Nov 28 10:38:12.366 HYPERVISOR: exec_cmd: vm get_status R20 
+Nov 28 10:38:12.366 HYPERVISOR: exec_cmd: vm set_idle_pc R20 0x60504f04 
+Nov 28 10:38:12.366 HYPERVISOR: exec_cmd: vm set_ios R20 /home/eduardo/Downloads/c3640-jk9o3s-mz.124-16.bin 
+Nov 28 10:38:12.367 HYPERVISOR: exec_cmd: vm set_nvram R20 256 
+Nov 28 10:38:12.367 HYPERVISOR: exec_cmd: vm set_ram R20 256 
+Nov 28 10:38:12.367 HYPERVISOR: exec_cmd: vm get_status R20 
+Nov 28 10:38:12.367 HYPERVISOR: exec_cmd: vm slot_add_binding R20 0 0 NM-1FE-TX 
+Nov 28 10:38:12.367 HYPERVISOR: exec_cmd: vm get_status R20 
+Nov 28 10:38:12.367 HYPERVISOR: exec_cmd: vm slot_add_binding R20 1 0 NM-1FE-TX 
+Nov 28 10:38:12.368 HYPERVISOR: exec_cmd: vm get_status R20 
+Nov 28 10:38:12.368 HYPERVISOR: exec_cmd: vm slot_add_binding R20 2 0 NM-1FE-TX 
+Nov 28 10:38:12.368 HYPERVISOR: exec_cmd: vm get_status R20 
+Nov 28 10:38:12.368 HYPERVISOR: exec_cmd: vm slot_add_binding R20 3 0 NM-1FE-TX 
+Nov 28 10:38:12.368 HYPERVISOR: exec_cmd: vm set_con_tcp_port R20 5039 
+Nov 28 10:38:19.077 HYPERVISOR: exec_cmd: nio create_udp udp-1438998e-8fca-4aa7-bd66-bd245e749953 10093 127.0.0.1 10095 
+Nov 28 10:38:19.293 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R20 0 0 udp-1438998e-8fca-4aa7-bd66-bd245e749953 
+Nov 28 10:38:19.294 HYPERVISOR: exec_cmd: vm get_status R20 

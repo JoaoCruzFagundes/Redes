@@ -1,0 +1,37 @@
+Nov 28 10:38:12.133 HYPERVISOR: Release 0.2.14-amd64/Linux (tag 2014092320)
+Nov 28 10:38:12.133 HYPERVISOR: Started on IP = localhost, TCP port = 46305.
+Nov 28 10:38:12.143 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 28 10:38:12.144 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips 
+Nov 28 10:38:12.144 GENERAL: working_dir=/home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips
+Nov 28 10:38:12.144 HYPERVISOR: exec_cmd: hypervisor working_dir /home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips/7270458d-9a74-461c-b9fb-aa3b8dff74d9 
+Nov 28 10:38:12.144 GENERAL: working_dir=/home/eduardo/workspace/Redes/Ant Work/gns3/complex_bgp_config/project-files/dynamips/7270458d-9a74-461c-b9fb-aa3b8dff74d9
+Nov 28 10:38:12.144 HYPERVISOR: exec_cmd: vm create R13 13 c3600 
+Nov 28 10:38:12.144 VM: VM R13 created.
+Nov 28 10:38:12.144 HYPERVISOR: exec_cmd: vm set_con_tcp_port R13 5032 
+Nov 28 10:38:12.144 HYPERVISOR: exec_cmd: c3600 get_mac_addr R13 
+Nov 28 10:38:12.145 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 28 10:38:12.145 HYPERVISOR: exec_cmd: vm set_idle_pc R13 0x60504f04 
+Nov 28 10:38:12.145 HYPERVISOR: exec_cmd: vm set_ios R13 /home/eduardo/Downloads/c3640-jk9o3s-mz.124-16.bin 
+Nov 28 10:38:12.145 HYPERVISOR: exec_cmd: vm set_nvram R13 256 
+Nov 28 10:38:12.146 HYPERVISOR: exec_cmd: vm set_ram R13 256 
+Nov 28 10:38:12.146 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 28 10:38:12.146 HYPERVISOR: exec_cmd: vm slot_add_binding R13 0 0 NM-1FE-TX 
+Nov 28 10:38:12.146 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 28 10:38:12.146 HYPERVISOR: exec_cmd: vm slot_add_binding R13 1 0 NM-1FE-TX 
+Nov 28 10:38:12.146 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 28 10:38:12.146 HYPERVISOR: exec_cmd: vm slot_add_binding R13 2 0 NM-1FE-TX 
+Nov 28 10:38:12.147 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 28 10:38:12.147 HYPERVISOR: exec_cmd: vm slot_add_binding R13 3 0 NM-1FE-TX 
+Nov 28 10:38:12.147 HYPERVISOR: exec_cmd: vm set_con_tcp_port R13 5032 
+Nov 28 10:38:16.389 HYPERVISOR: exec_cmd: nio create_udp udp-b9c9e1c2-ef88-4a5d-9414-3513eecb831b 10218 127.0.0.1 10219 
+Nov 28 10:38:16.606 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R13 0 0 udp-b9c9e1c2-ef88-4a5d-9414-3513eecb831b 
+Nov 28 10:38:16.607 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 28 10:38:17.508 HYPERVISOR: exec_cmd: nio create_udp udp-12c5043c-a36e-41a0-b805-ff619a9027f8 10012 127.0.0.1 10013 
+Nov 28 10:38:17.509 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R13 1 0 udp-12c5043c-a36e-41a0-b805-ff619a9027f8 
+Nov 28 10:38:17.510 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 28 10:38:17.689 HYPERVISOR: exec_cmd: nio create_udp udp-d55c00f9-dfc8-40c9-9614-6f9b1faa3eca 10030 127.0.0.1 10031 
+Nov 28 10:38:17.691 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R13 2 0 udp-d55c00f9-dfc8-40c9-9614-6f9b1faa3eca 
+Nov 28 10:38:17.691 HYPERVISOR: exec_cmd: vm get_status R13 
+Nov 28 10:38:18.302 HYPERVISOR: exec_cmd: nio create_udp udp-2a12d798-e98d-4954-925f-f41ac836499d 10069 127.0.0.1 10071 
+Nov 28 10:38:18.304 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R13 3 0 udp-2a12d798-e98d-4954-925f-f41ac836499d 
+Nov 28 10:38:18.304 HYPERVISOR: exec_cmd: vm get_status R13 
